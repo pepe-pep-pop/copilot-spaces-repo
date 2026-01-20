@@ -15,6 +15,13 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+  - Tag UX/UI Designer for review on UI changes
+  - Notify Technical Writer for documentation updates
+- QA workflow:
+  - QA Lead triages and assigns test cases
+  - Manual testing performed on items in QA column
+  - Defects tracked and linked to original work items
+  - QA sign-off required before moving to Done
 
 ## Quality & Testing
 - Unit tests for new logic
@@ -22,6 +29,10 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- QA Lead coordinates regression testing and sign-off
+- UX/UI Designer validates design implementation and accessibility
+- DevOps Engineer ensures CI/CD pipeline health and automated test integration
+- Technical Writer reviews in-product help text and error messages
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -35,6 +46,9 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
+- [ ] CI configured for tests and lint (DevOps Engineer)
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] QA testing process and quality gates established (QA Lead)
+- [ ] Design review process in place for UI changes (UX/UI Designer)
+- [ ] Documentation updated with each feature release (Technical Writer)
