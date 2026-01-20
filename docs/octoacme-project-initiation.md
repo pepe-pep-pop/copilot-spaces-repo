@@ -18,6 +18,8 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - High-level timeline and key milestones
 - Initial risk list
 - Resource needs (team roles, rough effort estimate)
+- Quality and documentation strategy (consider QA Lead and Technical Writer involvement)
+- Design and infrastructure requirements (consider UX/UI Designer and DevOps Engineer needs)
 
 ## Project One-pager Template
 - Project name:
@@ -28,6 +30,8 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
 - Proposed team / roles:
+  - Core: Developers, Product Manager, Project Manager
+  - Extended: QA Lead (if quality gates needed), UX/UI Designer (if user-facing), DevOps Engineer (if infrastructure/deployment focus), Technical Writer (if documentation-heavy)
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
